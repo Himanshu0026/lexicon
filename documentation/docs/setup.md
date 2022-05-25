@@ -68,13 +68,13 @@ MOBILE_PROSE_HOST=https://prose.mysite.com
 The Prose GraphQL API is fairly simple in terms of configuration. In the simplest case, it only needs to know where your Discourse instance is accessible at.
 
 ```
-PROSE_DISCOURSE_HOST=https://meta.discourse.org
+PROSE_DISCOURSE_HOST=https://try.discourse.org/
 ```
 
 However, it is also worth noting that you can optionally configure the **Hostname** and **Port Number** that the Prose server listens on, which default to **localhost** and **port 80**, respectively.
 
 ```
-PROSE_DISCOURSE_HOST=https://meta.discourse.org
+PROSE_DISCOURSE_HOST=https://try.discourse.org/
 
 # Instruct Prose to broadcast publicly instead of on localhost
 PROSE_APP_HOSTNAME=0.0.0.0

@@ -14,7 +14,7 @@ Fortunately, there is a secret setting that enables this.
 
 It just takes a bit of additional configuration to enable.
 
-While Discourse does enable opting into this behavior as part of a [Theme Component](https://meta.discourse.org/t/topic-list-excerpts-theme-component/151520), we wanted to guide you through the option of toggling the setting itself.
+While Discourse does enable opting into this behavior as part of a [Theme Component](https://try.discourse.org//t/topic-list-excerpts-theme-component/151520), we wanted to guide you through the option of toggling the setting itself.
 
 Should you prefer to enable it using the above theme component, you're free to do so.
 
@@ -22,7 +22,7 @@ Enabling this setting involves gaining access to the server and changing a setti
 
 ### Instructions
 
-The original instructions can be found [here](https://meta.discourse.org/t/discourse-as-a-simple-personal-blog-engine/138244/4).
+The original instructions can be found [here](https://try.discourse.org//t/discourse-as-a-simple-personal-blog-engine/138244/4).
 
 Once you've gained access to your server, enter into the running Discourse app.
 

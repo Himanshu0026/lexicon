@@ -26,7 +26,7 @@ There are countless examples of active Discourse communities out there. Here are
 
 ##### Discourse Meta
 
-[https://meta.discourse.org/](https://meta.discourse.org/)
+[https://try.discourse.org//](https://try.discourse.org//)
 
 ##### Expo
 
@@ -46,7 +46,7 @@ There are countless examples of active Discourse communities out there. Here are
 This section can take a long time. Depending on the specs of your machine, it could take between 10 - 30 minutes to complete.
 :::
 
-This section of the tutorial is based on the following post on Discourse: [Beginners Guide to Install Discourse for Development using Docker](https://meta.discourse.org/t/beginners-guide-to-install-discourse-for-development-using-docker/102009).
+This section of the tutorial is based on the following post on Discourse: [Beginners Guide to Install Discourse for Development using Docker](https://try.discourse.org//t/beginners-guide-to-install-discourse-for-development-using-docker/102009).
 
 If you run into any issues, feel free to reference the original post and subsequent discussion.
 

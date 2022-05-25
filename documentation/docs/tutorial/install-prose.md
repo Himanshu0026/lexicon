@@ -46,7 +46,7 @@ Just bear in mind that you'll want to adjust some of the **environment variables
 
 ```
 $ docker run -d \
-  -e PROSE_DISCOURSE_HOST=https://meta.discourse.org \
+  -e PROSE_DISCOURSE_HOST=https://try.discourse.org/ \
   -e PROSE_APP_PORT=80 \
   -p 5000:80 \
   --name prose-graphql \
@@ -64,13 +64,13 @@ docker run -d
 This instructs Docker to run our image as a container in **detached mode**. This is similar to backgrounding a process.
 
 ```bash
--e PROSE_DISCOURSE_HOST=https://meta.discourse.org
+-e PROSE_DISCOURSE_HOST=https://try.discourse.org/
 -e PROSE_APP_PORT=80
 ```
 
 The `-e` flag instructs Docker that we want to set or override certain environment variables in the container with the values we provided.
 
-In this case, we're telling Prose to interact with the Discourse instance is running at `https://meta.discourse.org`, and that Prose should run itself _inside of the container_ on a port of `80`.
+In this case, we're telling Prose to interact with the Discourse instance is running at `https://try.discourse.org/`, and that Prose should run itself _inside of the container_ on a port of `80`.
 
 ```
 -p 5000:80

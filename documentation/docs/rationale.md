@@ -52,7 +52,7 @@ This allowed us to quickly iterate on new features with a more modern, well-thou
 
 For starters, if you already run an existing Discourse site and want a native mobile experience for your users, you can very quickly point Lexicon at your site and browse it in real-time from your device.
 
-Check out the [Quick Start](quick-start) page to see a rapid example of spinning up a mobile app for Discourse's own [Meta site](https://meta.discourse.org).
+Check out the [Quick Start](quick-start) page to see a rapid example of spinning up a mobile app for Discourse's own [Meta site](https://try.discourse.org/).
 
 But beyond that, Lexicon is an open source pre-built mobile app. This means that you can customize it to fit your brand.
 

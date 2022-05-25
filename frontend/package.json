@@ -2,7 +2,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "quickstart": "MOBILE_PROSE_HOST=http://127.0.0.1 MOBILE_PROSE_PORT=8929 expo start",
+    "quickstart": "MOBILE_PROSE_HOST=http://192.168.1.221 PROSE_APP_HOSTNAME=0.0.0.0 MOBILE_PROSE_PORT=8929 expo start",
     "typecheck": "tsc --noEmit -p .",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
@@ -11,10 +11,8 @@
     "jest": "MOBILE_PROSE_HOST=http://localhost jest --coverage --passWithNoTests",
     "test": "yarn apollo:generate && yarn lint && yarn typecheck && yarn format:check && yarn jest",
     "eject": "expo eject",
-    "apollo:generate": "yarn create-generated-folder && yarn clean-generated-folder && yarn apollo:typegen-server && yarn format:generated",
-    "apollo:typegen-server": "apollo client:codegen src/generated/server --target typescript --includes=src/graphql/server/*.ts --localSchemaFile=../api/src/generated/schema.graphql --tagName gql --outputFlat",
-    "create-generated-folder": "cd src/generated || mkdir src/generated ",
-    "clean-generated-folder": "if find src/generated/*; then  rm -r src/generated/*; fi"
+    "apollo:generate": "yarn apollo:typegen-server && yarn format:generated",
+    "apollo:typegen-server": "apollo client:codegen src/generated/server --target typescript --includes=src/graphql/server/*.ts --localSchemaFile=../api/src/generated/schema.graphql --tagName gql --outputFlat"
   },
   "dependencies": {
     "@apollo/client": "^3.1.2",
@@ -36,10 +34,10 @@
     "graphql": "^15.3.0",
     "intl": "^1.2.5",
     "markdown-it-flowdock": "^0.3.8",
-    "react": "16.13.1",
+    "react": "17.0.2",
     "react-dom": "16.13.1",
     "react-hook-form": "^6.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native": "0.68.2",
     "react-native-appearance": "~0.3.3",
     "react-native-auto-grow-textinput": "^1.2.1",
     "react-native-dotenv": "^2.4.1",

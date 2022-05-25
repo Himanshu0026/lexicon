@@ -14,7 +14,7 @@ However, [the official documentation](https://docs.discourse.org/) for this API 
 >
 > —**Discourse API Documentation**
 
-The core team, as well as members of the [support forum](https://meta.discourse.org), regularly respond to questions about the API by [encouraging developers to reverse-engineer the API](https://meta.discourse.org/t/how-to-reverse-engineer-the-discourse-api/20576). As of this writing, the topic for how to reverse engineer the API has been linked to from nearly 170 other topics on the support forum.
+The core team, as well as members of the [support forum](https://try.discourse.org/), regularly respond to questions about the API by [encouraging developers to reverse-engineer the API](https://try.discourse.org//t/how-to-reverse-engineer-the-discourse-api/20576). As of this writing, the topic for how to reverse engineer the API has been linked to from nearly 170 other topics on the support forum.
 
 To help you simplify the process for you, Prose strives to normalize a subset of the API. We have done so with the hope that it will save you some time as you develop against Discourse.
 

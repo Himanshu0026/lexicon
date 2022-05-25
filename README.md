@@ -48,7 +48,7 @@ This will simultaneously launch two processes:
 - The Prose GraphQL API Server
 - The local Expo dev server, which will enable you to launch the React Native app from your device
 
-The `quickstart` commands are designed to point at an existing Discourse server, [Discourse Meta](https://meta.discourse.org).
+The `quickstart` commands are designed to point at an existing Discourse server, [Discourse Meta](https://try.discourse.org/).
 
 Configuring it to point at your own Discourse site will take additional configuration.
 

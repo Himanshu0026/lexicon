@@ -20,7 +20,7 @@ if (shouldValidate) {
   if (PROSE_DISCOURSE_HOST === undefined) {
     // eslint-disable-next-line no-console
     console.error(
-      'Missing required environment variable PROSE_DISCOURSE_HOST.\n\nExample Value: https://meta.discourse.org\n',
+      'Missing required environment variable PROSE_DISCOURSE_HOST.\n\nExample Value: https://try.discourse.org/\n',
     );
     process.exit(EXIT_CODE_INVALID_ARGUMENT);
   }

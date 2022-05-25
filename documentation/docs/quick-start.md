@@ -53,7 +53,7 @@ This will simultaneously launch two processes:
 
 **Please note that this takes some configuration to setup properly**.
 
-- The `quickstart` command configures the Mobile App and the Prose GraphQL API to point at https://meta.discourse.org, as an example.
+- The `quickstart` command configures the Mobile App and the Prose GraphQL API to point at https://try.discourse.org/, as an example.
 
 - You'll need to make adjustments to point at a site of your choice.
 
